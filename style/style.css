@@ -26,6 +26,10 @@ article.portfolio {
   color: white;
 }
 
+a.my_text-seagreen {
+  color: #1abc9c;
+}
+
 .my_bg-navy-blue {
   background-color: #3a546d;
 }
