@@ -3,6 +3,10 @@
   width: 300px;
 }
 
+.my_hr {
+  width: 50px;
+}
+
 /* Portfolio */
 article.portfolio {
   margin-bottom: 1rem;
@@ -44,5 +48,9 @@ a.my_text-seagreen {
   .my_wrapper-small {
     width: 60%;
     margin: 0 auto;
+  }
+
+  .my_hr {
+    width: 150px;
   }
 }
