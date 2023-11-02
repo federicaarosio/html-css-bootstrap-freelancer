@@ -1,14 +1,10 @@
 [class^="col"] {
-  border: 2px solid brown;
   min-height: 50px;
-  /* background-color: bisque; */
 }
 
 
 /* Jumbo */
-#jumbo {
-  height: 35rem;
-}
+
 
 .my_img-width {
   width: 300px;
