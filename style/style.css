@@ -4,7 +4,11 @@
 
 
 /* Jumbo */
-
+/* .my_hr-height {
+  border: 10px solid red;
+  height: 50px;
+  background-color: white;
+} */
 
 .my_img-width {
   width: 300px;
@@ -12,8 +16,6 @@
 
 /* Portfolio */
 article.portfolio {
-  height: 300px;
-  border: 2px solid limegreen;
   margin-bottom: 1rem;
 }
 
@@ -35,12 +37,12 @@ article.portfolio {
 
 @media screen and (min-width: 992px) {
   .my_wrapper-big {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
   }
 
   .my_wrapper-small {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
 }
