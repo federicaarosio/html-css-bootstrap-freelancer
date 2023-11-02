@@ -8,6 +8,13 @@ article.portfolio {
   margin-bottom: 1rem;
 }
 
+/* Footer */
+.my_circle-btn {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
 /* Colors */
 .my_bg-midnight-blue {
   background-color: #2c3e50;
