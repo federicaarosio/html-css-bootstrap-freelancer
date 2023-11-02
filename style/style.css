@@ -40,8 +40,13 @@ article.portfolio {
 
 
 @media screen and (min-width: 992px) {
-  .my_wrapper {
+  .my_wrapper-big {
     width: 80%;
+    margin: 0 auto;
+  }
+
+  .my_wrapper-small {
+    width: 70%;
     margin: 0 auto;
   }
 }
