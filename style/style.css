@@ -25,6 +25,10 @@ article.portfolio {
   color: white;
 }
 
+.my_text-midnught-blue {
+  color: #2c3e50;
+}
+
 .my_bg-seagreen {
   background-color: #1abc9c;
   color: white;
@@ -36,6 +40,18 @@ a.my_text-seagreen {
 
 .my_bg-navy-blue {
   background-color: #3a546d;
+}
+
+#form-contact input,
+#form-contact textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+#form-contact textarea {
+  height: 12rem;
 }
 
 

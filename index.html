@@ -18,8 +18,8 @@
 <body>
 
   <!-- header -->
-  <nav class="navbar navbar-expand-md navbar-dark my_bg-midnight-blue text-uppercase fw-semibold">
-    <div class="container-md">
+  <nav class="navbar navbar-expand-md navbar-dark my_bg-midnight-blue text-uppercase fw-semibold my_">
+    <div class="container">
       <a class="navbar-brand fw-bold" href="#">Start Bootstrap</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,13 +27,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link text-white" href="#">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link text-white" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link text-white" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -147,49 +147,30 @@
         <div class="container">
 
           <h1 class="text-center text-uppercase fw-semibold">Contact me</h1>
-          <div class="d-flex justify-content-center align-items-center text-center">
+          <div class="d-flex justify-content-center align-items-center text-center mb-4">
             <div class="col-1 my_hr"><hr class="border border-dark border-2 opacity-100 rounded"></div>
             <div class="col-1"><i class="fa-solid fa-star"></i></div>
             <div class="col-1 my_hr"><hr class="border border-dark border-2 opacity-100 rounded"></div>
           </div>
           <div class="row">
             <div class="col-12 ">
-              <form>
-                <div class="row d-flex align-items-center justify-content-center">
-                  <label for="inputName" class="col-2">Name</label>
-                  <div class="col-10">
-                    <input type="text" class="form-control border-0" id="inputName3">
-                  </div>
+              <form id="form-contact">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                  <label for="floatingInput" class="my_text-midnught-blue">Name</label>
                 </div>
-
-                <hr class="m-0">
-
-                <div class="row d-flex align-items-center justify-content-center">
-                  <label for="email" class="col-2">Email Address</label>
-                  <div class="col-10">
-                    <input type="email" class="form-control border-0" id="inputEmail3">
-                  </div>
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput" class="my_text-midnught-blue">Email address</label>
                 </div>
-
-                <hr class="m-0">
-
-                <div class="row d-flex align-items-center justify-content-center">
-                  <label for="phone" class="col-2">Phone Number</label>
-                  <div class="col-10">
-                    <input type="tel" class="form-control border-0" id="phone">
-                  </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword" class="my_text-midnught-blue">Password</label>
                 </div>
-
-                <hr class="m-0">
-
-                <div class="row">
-                  <div class="col-2">Message</div>
-                  <div class="col-12">
-                    <textarea class="form-control border-0"></textarea>
-                  </div>
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" placeholder="Message" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea" class="my_text-midnught-blue">Message</label>
                 </div>
-
-                <hr class="m-0 pb-3">
 
                 <button type="button" class="btn my_bg-seagreen">Send</button>
 
