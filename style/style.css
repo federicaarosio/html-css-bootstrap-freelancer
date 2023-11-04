@@ -1,10 +1,31 @@
 
 .my_img-width {
-  width: 300px;
+  width: 225px;
 }
 
-.my_hr {
-  width: 50px;
+.my_fs-big {
+  font-size: 3.5rem;
+}
+
+.my_separator::before,
+.my_separator::after {
+content: "";
+display: inline-block;
+height: 0.2rem;
+width: 15%;
+border-radius: 10px;
+vertical-align: middle;
+background-color: white;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+.my_separator i {
+vertical-align: middle;
+}
+.my_separator-midnught-blue::before,
+.my_separator-midnught-blue::after {
+  background-color: #2c3e50;
 }
 
 /* Portfolio */
